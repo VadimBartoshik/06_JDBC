@@ -1,12 +1,16 @@
-line:20 - [INFO ][2020-05-28 15:02:24] root: - men
-line:20 - [INFO ][2020-05-28 15:02:24] root: - women
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 1 Вадим 18
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 2 Виктор 12
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 3 Илья 5
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 4 Женя 15
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 5 Денис 21
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 1 Мария 18
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 2 Галина 26
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 3 Марина 19
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 4 Соня 15
-line:29 - [INFO ][2020-05-28 15:02:24] root: - 5 Ксения 16
+
+line:22 - [INFO ][2020-05-31 13:40:43] root: - Table in database:
+line:54 - [INFO ][2020-05-31 13:40:50] root: - men
+line:54 - [INFO ][2020-05-31 13:40:50] root: - women
+line:24 - [INFO ][2020-05-31 13:40:50] root: - Women table data:
+line:22 - [INFO ][2020-05-31 13:40:50] root: - id - 1; name - Мария; age - 18
+line:22 - [INFO ][2020-05-31 13:40:50] root: - id - 2; name - Галина; age - 26
+line:22 - [INFO ][2020-05-31 13:40:50] root: - id - 3; name - Марина; age - 19
+line:22 - [INFO ][2020-05-31 13:40:50] root: - id - 4; name - Соня; age - 15
+line:22 - [INFO ][2020-05-31 13:40:50] root: - id - 5; name - Ксения; age - 16
+line:26 - [INFO ][2020-05-31 13:40:50] root: - Men table data:
+line:34 - [INFO ][2020-05-31 13:40:50] root: - id - 1; name - Вадим; age - 18
+line:34 - [INFO ][2020-05-31 13:40:51] root: - id - 2; name - Виктор; age - 12
+line:34 - [INFO ][2020-05-31 13:40:51] root: - id - 3; name - Илья; age - 5
+line:34 - [INFO ][2020-05-31 13:40:51] root: - id - 4; name - Женя; age - 15
+line:34 - [INFO ][2020-05-31 13:40:51] root: - id - 5; name - Денис; age - 21

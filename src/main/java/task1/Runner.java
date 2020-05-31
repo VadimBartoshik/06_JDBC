@@ -1,21 +1,30 @@
 package task1;
+import com.github.javafaker.Faker;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+import java.io.IOException;
 import java.sql.SQLException;
 
-
 public class Runner {
-    public static final String URL = "jdbc:mysql://localhost:3306/people";
-    public static final String USER = "root";
-    public static final String PASSWORD = "dflbv181818";
+    public static Logger logger = LogManager.getRootLogger();
 
     public static void main(String[] args) {
 
         try {
+            logger.info("Table in database:");
             MyFirstConnection.printAllTable(MyFirstConnection.getConnection());
-            MyFirstConnection.getTableContents(MyFirstConnection.getConnection(),"Select * From men");
+            logger.info("Women table data:");
             MyFirstConnection.getTableContents(MyFirstConnection.getConnection(),"Select * From women");
+            logger.info("Men table data:");
+            MyFirstConnection.getTableContentsWithPrepare(MyFirstConnection.getConnection(), "men");
+
         } catch (
                 SQLException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
+        }
+        catch (IOException e){
+            logger.error(e.getMessage());
         }
 
     }
