@@ -1,1 +1,76 @@
 
+line:18 - [ERROR][2020-05-31 17:35:39] [main] root.main.Runner.java.main: - Can not issue data manipulation statements with executeQuery().
+line:18 - [ERROR][2020-05-31 17:39:27] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EXITS `social network`.`new_table` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name' at line 1
+line:18 - [ERROR][2020-05-31 17:42:03] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EXITS users (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(45) NOT NULL,
+  s' at line 1
+line:18 - [ERROR][2020-05-31 18:03:21] [main] root.main.Runner.java.main: - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+line:18 - [ERROR][2020-05-31 18:04:23] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 10
+line:18 - [ERROR][2020-05-31 18:05:23] [main] root.main.Runner.java.main: - Failed to add the foreign key constraint. Missing index for constraint 'userId1_fk' in the referenced table 'users'
+line:18 - [ERROR][2020-05-31 18:14:43] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`
+    FOREIGN KEY (userId1)
+    REFERENCES users (id)
+    ON DELETE NO ACTION
+  ' at line 7
+line:18 - [ERROR][2020-05-31 18:26:23] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (userId2) REFERENCES users (id)
+)' at line 9
+line:18 - [ERROR][2020-05-31 18:27:16] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (userId2) REFERENCES users (id)
+)' at line 9
+line:18 - [ERROR][2020-05-31 18:27:34] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (userId2) REFERENCES users (id)
+)' at line 9
+line:18 - [ERROR][2020-05-31 18:28:15] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (userId2) REFERENCES users (id)
+ )' at line 9
+line:18 - [ERROR][2020-05-31 18:29:02] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FOREIGN KEY (userId2) REFERENCES users (id))' at line 9
+line:18 - [ERROR][2020-05-31 18:31:03] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+line:18 - [ERROR][2020-05-31 18:39:39] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+  FOREIGN KEY (userId1) REFERENCES user (id),
+  FOREIGN KEY (userId2) REFERENC' at line 6
+line:18 - [ERROR][2020-05-31 18:42:08] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',
+  FOREIGN KEY (userId1) REFERENCES user (id),
+  FOREIGN KEY (userId2) REFERENC' at line 6
+line:18 - [ERROR][2020-05-31 18:44:52] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+line:18 - [ERROR][2020-05-31 18:50:42] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Social network'.user (id),
+  userId2 INT NOT NULL REFERENCES 'Social network'.u' at line 3
+line:18 - [ERROR][2020-05-31 18:51:04] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Social network'.'user' (id),
+  userId2 INT NOT NULL REFERENCES 'Social network'' at line 3
+line:18 - [ERROR][2020-05-31 18:51:45] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''social network'.'user' (id),
+  userId2 INT NOT NULL REFERENCES 'social network'' at line 3
+line:18 - [ERROR][2020-05-31 18:51:55] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''socialnetwork'.'user' (id),
+  userId2 INT NOT NULL REFERENCES 'socialnetwork'.'' at line 3
+line:18 - [ERROR][2020-05-31 19:55:07] [main] root.main.Runner.java.main: - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+line:18 - [ERROR][2020-05-31 20:11:18] [main] root.main.Runner.java.main: - Duplicate foreign key constraint name 'userIdfk'
+line:18 - [ERROR][2020-05-31 20:12:17] [main] root.main.Runner.java.main: - Duplicate foreign key constraint name 'userIdfk'
+line:24 - [ERROR][2020-05-31 21:00:30] [main] root.main.Runner.java.main: - Data truncation: Incorrect date value: 'Sat Aug 02 12:27:57 MSK 3919' for column 'birthday' at row 1
+line:33 - [ERROR][2020-05-31 23:40:30] [main] root.main.Runner.java.main: - Cannot add or update a child row: a foreign key constraint fails (`social network`.`friendship`, CONSTRAINT `user1fk` FOREIGN KEY (`userId1`) REFERENCES `users` (`id`))
+line:30 - [ERROR][2020-05-31 23:41:17] [main] root.main.Runner.java.main: - Cannot add or update a child row: a foreign key constraint fails (`social network`.`friendship`, CONSTRAINT `user1fk` FOREIGN KEY (`userId1`) REFERENCES `users` (`id`))
+line:30 - [ERROR][2020-05-31 23:56:13] [main] root.main.Runner.java.main: - Table 'social network.friendship' doesn't exist
+line:30 - [ERROR][2020-05-31 23:57:43] [main] root.main.Runner.java.main: - Data truncation: Incorrect datetime value: '02:43:29' for column 'timestamp' at row 1
+line:30 - [ERROR][2020-05-31 23:58:46] [main] root.main.Runner.java.main: - Cannot add or update a child row: a foreign key constraint fails (`social network`.`friendship`, CONSTRAINT `user1fk` FOREIGN KEY (`userId1`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+line:31 - [ERROR][2020-06-01 00:14:44] [main] root.main.Runner.java.main: - Cannot add or update a child row: a foreign key constraint fails (`social network`.`friendship`, CONSTRAINT `user2fk` FOREIGN KEY (`userId2`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+line:28 - [ERROR][2020-06-01 00:16:49] [main] root.main.Runner.java.main: - Cannot add or update a child row: a foreign key constraint fails (`social network`.`friendship`, CONSTRAINT `user1fk` FOREIGN KEY (`userId1`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+line:28 - [ERROR][2020-06-04 22:33:24] [main] root.main.Runner.java.main: - The server time zone value '�������� (����)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+line:26 - [ERROR][2020-06-05 00:02:37] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADD PRIMARY KEY (`id`),
+    FOREIGN KEY (`postId`)
+    REFERENCES `social networ' at line 9
+line:26 - [ERROR][2020-06-05 00:04:27] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADD PRIMARY KEY (`id`),
+  INDEX `postIdfk_idx` (`postId` ASC) VISIBLE,
+  INDEX `' at line 6
+line:26 - [ERROR][2020-06-05 00:04:51] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADD PRIMARY KEY (`id`),
+  CONSTRAINT `userIdfklikes`
+    FOREIGN KEY (`userid`)
+' at line 13
+line:26 - [ERROR][2020-06-05 00:06:06] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',  ADD PRIMARY KEY (`id`))' at line 17
+line:26 - [ERROR][2020-06-05 00:06:47] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADD PRIMARY KEY (`id`))' at line 17
+line:26 - [ERROR][2020-06-05 00:07:26] [main] root.main.Runner.java.main: - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INT NOT NULL,
+  `userid` INT NOT NULL,
+  `timestame` YEAR NOT NULL,
+  INDEX `pos' at line 3
+line:28 - [ERROR][2020-06-05 00:16:43] [main] root.main.Runner.java.main: - Data truncated for column 'timestamp' at row 1
+line:28 - [ERROR][2020-06-05 00:18:06] [main] root.main.Runner.java.main: - Data truncated for column 'timestamp' at row 1

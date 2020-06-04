@@ -1,5 +1,4 @@
 package task1;
-import com.github.javafaker.Faker;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
